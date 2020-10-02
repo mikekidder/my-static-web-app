@@ -33,5 +33,10 @@ export default new Router({
       path: '*',
       component: PageNotFound,
     },
+    {
+      "route": "/*",
+      "serve": "/index.html",
+      "statusCode": 200
+    },
   ],
 });
